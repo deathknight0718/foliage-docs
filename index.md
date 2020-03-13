@@ -12,7 +12,7 @@
 
 ### 4.案例分析
 
-- [4-1.Hello Nifi!]()
+- [4-1.Hello Nifi!](./pages/examples/hello_nifi.md)
 
 ### 5.开发指南
 
