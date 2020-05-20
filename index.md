@@ -25,7 +25,7 @@
 
 ### 开发指南
 
-- [Chrome/Chromium 浏览器投屏插件制作流程](./pages/chromuim/iws-chromium-guide.md)
+- [Chrome/Chromium 浏览器投屏插件制作流程](./pages/chromium/iws-chromium-guide.md)
 
 ### 部署指南
 
