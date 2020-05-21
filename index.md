@@ -4,9 +4,9 @@
 
 ## 文档目录
 
-- [Foliage Nifi 使用手册]
+- [Foliage Nifi 相关文档]
 
-## Foliage Nifi 使用手册
+## Foliage Nifi 相关文档
 
 ### 基本概念
 
@@ -25,8 +25,13 @@
 
 ### 开发指南
 
-- [Chrome/Chromium 浏览器投屏插件制作流程](./pages/chromium/iws-chromium-guide.md)
-
 ### 部署指南
 
 ### FAQ
+
+## Foliage Chrome/Chromium 相关文档
+
+### 开发指南
+
+- [Chrome/Chromium 浏览器投屏插件制作流程](./pages/chromium/iws-chromium-guide.md)
+
