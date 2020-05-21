@@ -6,7 +6,7 @@
 
 打开开发版浏览器，在浏览器窗口进入 chrome://extensions 配置。
 
-![2020-05-20-01](../../images/2020-05-20-01.png)
+<p align="center"><img src="../../images/2020-05-20-01.png"></p>
 
 将右上角的开发者模式启用。
 
@@ -107,7 +107,7 @@ chrome.runtime.onMessageExternal.addListener(onMessageExternalFromWebPage)
 
 接下来进行调试， chrome://extensions 下点击加载已解压的扩展程序，选择 iws-chrome-api 目录，可以看到插件已经被 chrome 加载，并且给出了一个 plugin id 。
 
-![2020-05-20-02](../../images/2020-05-20-02.png)
+<p align="center"><img src="../../images/2020-05-20-02.png" /></p>
 
 我们接下来建立 web example 。
 
@@ -177,7 +177,7 @@ web.xml 示例如下：
 
 启动 tomcat 进入网址 http://localhost:8080/examples/ 即可看到测试页面：
 
-![2020-05-20-03](../../images/2020-05-20-03.png)
+<p align="center"><img src="../../images/2020-05-20-03.png" /></p>
 
 前端开发人员也可以通过 nodejs & webpack server 进行调试。
 
