@@ -14,7 +14,7 @@
 
 建立空白文件夹 iws-chrome-api ，添加项目说明文档 manifest.json , 一个内核脚本 background.js, 以及图标文件 icons 。
 
-```
+```shell
 $ cd iws-chrome-api/
 $ tree
 .
@@ -27,7 +27,7 @@ $ tree
 
 有关 manifest.json 文档说明参考 [Manifest File Format](https://developer.chrome.com/extensions/manifest) ，此处给出样例
 
-```
+```json
 {
 	"name": "IWS Chrome API",
 	"version": "1.0.0",
@@ -47,7 +47,7 @@ $ tree
 
 background.js 中写入消息监听处理逻辑：
 
-```
+```javascript
 function onMessageExternalFromWebPage(message, sender, callback) {
   switch (message.flag) {
     case 'GET_DISPLAY_INFO': { // 获取外设屏幕信息
@@ -113,7 +113,7 @@ chrome.runtime.onMessageExternal.addListener(onMessageExternalFromWebPage)
 
 下载 apache tomcat 8.5.x 解压，删除 webapps 下的所有文件夹，创建 examples 文件夹，结构如下：
 
-```
+```shell
 $ tree
 .
 └── examples
@@ -124,7 +124,7 @@ $ tree
 
 index.html 示例如下：
 
-```
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
@@ -162,7 +162,7 @@ index.html 示例如下：
 
 web.xml 示例如下：
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1" metadata-complete="true">
     <description>
